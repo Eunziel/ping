@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    height: 80vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+.image{
+    height: 20px;
+    margin: 20px 150px;
+}
+.ig{
+    height: 30vh;
+    margin-top: 70px;
+}
+.text h2{
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: 40px;
+}
+.text span{
+    color: black;
+    font-weight: 600;
+}
+
+.text p{
+    margin: 15px 100px;
+    color: hsl(0, 0%, 59%);
+}
+.btn{
+    display: flex;
+    margin-top: 20px;
+}
+.one, .two{
+    padding: 10px;
+    padding-left: 50px;
+    border-radius: 50px;
+}
+.two{
+    padding-right: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: hsl(223, 87%, 63%);
+    font-weight: 300;
+    margin-left: 20px;
+}
+.one{
+    border: 1px solid hsl(0, 0%, 59%);
+}
+.end{
+    margin-top: 100px;
+    margin-left: 600px;
+    color: hsl(223, 100%, 88%);
+    font-size: 14px;
+}
+.attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+    margin-left: 50px;
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
+@media screen and (max-width: 700px){
+    .container{
+        width: 100%;
+    }
+    .end{
+        margin: auto;
+        margin-left: 130px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .one{
+        width: 95%;
+        margin-left: 20px;
+        text-align: left;
+    }
+    .two{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text h2{
+        font-size: 30px;
+        text-align: center;
+    }
+}
